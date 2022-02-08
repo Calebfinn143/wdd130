@@ -1,1 +1,30 @@
-:blank
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(23, 23, 192);
+    font-size: 18px;
+}
+
+h1, h2, h3, p {
+    color: black;
+}
+
+header, footer{
+    background-color: white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    color: navy;
+}
+
+/* Class Selectors *****************/
+page {
+    max-width: 960px;
+    margin: 0 auto;
+}
