@@ -4,12 +4,17 @@
 }
 
 body{
-    background-color: rgb(23, 23, 192);
-    font-size: 18px;
+    background-color: rgb(0, 47, 108);
+    font-size: 22px;
 }
 
 h1, h2, h3, p {
     color: black;
+    line-height: normal;
+}
+
+p {
+    margin: 2%
 }
 
 header, footer{
@@ -17,14 +22,22 @@ header, footer{
     display: grid;
     align-items: center;
     justify-content: center;
+    padding: 2%;
 }
 
 a {
-    color: navy;
+    color: rgb(0, 47, 108);
 }
 
 /* Class Selectors *****************/
-page {
+.page {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
     max-width: 960px;
     margin: 0 auto;
+}
+
+.image {
+    margin: 2%;
+    box-shadow: 5px 5px 5px rgb(41, 71, 110);
 }
