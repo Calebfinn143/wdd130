@@ -1,43 +1,99 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-    background-color: rgb(0, 47, 108);
+    background-color: white;
     font-size: 22px;
 }
 
-h1, h2, h3, p {
+main {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+h1 {
+    margin: auto;
+    color: rgb(211, 211, 211)
+}
+
+h2, h3 {
     color: black;
     line-height: normal;
 }
 
-p {
-    margin: 2%
-}
-
 header, footer{
-    background-color: white;
-    display: grid;
-    align-items: center;
-    justify-content: center;
+    background-color: rgb(0, 47, 108);
     padding: 2%;
-}
-
-a {
-    color: rgb(0, 47, 108);
+    color: rgb(211, 211, 211);
 }
 
 /* Class Selectors *****************/
 .page {
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
     max-width: 960px;
     margin: 0 auto;
 }
 
 .image {
     margin: 2%;
-    box-shadow: 5px 5px 5px rgb(41, 71, 110);
+    box-shadow: 5px, 5px, 5px rgb(211, 211, 211);
+}
+
+.footnote {
+    color: rgb(211, 211, 211)
+}
+
+.hero {
+    margin: 10px auto;
+	position: relative;
+}
+
+.slogan {
+    position: absolute;
+	top: 25px;
+	right: 50px;
+	background: radial-gradient(#eee, rgb(0, 47, 108));
+	padding: 1.5rem;
+	opacity: 0.9;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.header, .footer {
+    display: flex;
+}
+
+.header img {
+    max-width: 150px;
+}
+
+.navigation {
+	list-style: none;
+	display: flex;
+	text-align: center;
+    font-size: 30px;
+}
+.navigation li {
+	flex: 1 1 auto;
+}
+.navigation a {
+	display: block;
+	color: rgb(211, 211, 211);
+	padding: 0.75rem;
+	text-decoration: none;
+}
+
+.social {
+	padding-left: 20%;
+	text-decoration: none;
+}
+
+.main_page {
+    display: grid;
+    grid-template-columns: 1 fr 1fr;
 }
