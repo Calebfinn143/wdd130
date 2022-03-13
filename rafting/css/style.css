@@ -30,6 +30,47 @@ header, footer{
     color: rgb(211, 211, 211);
 }
 
+a.active {
+    background-color: black;
+}
+
+li a:hover {
+    background-color: rgb(211, 211, 211);
+    color: black;
+}
+
+picture.image_one, picture.image_three {
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+picture.image_two, picture.image_four {
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+h3.item_one, p.item_one, h3.item_three, p.item_three {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+h3.item_two, p.item_two, h3.item_four, p.item_four {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+table.table_one {
+        border: 2px solid black;
+        padding: 20%;
+        border-collapse: collapse;
+        text-align: center;
+        width: 100%;
+}
+
+th.questions {
+    background-color: yellow;
+}
+
 /* Class Selectors *****************/
 .page {
     font-family: Arial, Helvetica, sans-serif;
@@ -93,7 +134,14 @@ header, footer{
 	text-decoration: none;
 }
 
-.main_page {
+.item_one, .item_two, .item_three, .item_four {
     display: grid;
-    grid-template-columns: 1 fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap: 30px;
+    margin: 20px;
+}
+
+.half {
+    padding: 20px;
 }
