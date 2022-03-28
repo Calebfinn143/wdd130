@@ -1,9 +1,81 @@
 body {
-    background: linear-gradient(to right, #8e9eab, #eef2f3);
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: (your choice), sans-serif;
-    letter-spacing: 0.03em;
-  }
+  background: linear-gradient(to right, #8e9eab, #eef2f3);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: (your choice), sans-serif;
+  letter-spacing: 0.03em;
+}
+
+h2 {
+  text-align: center;
+}
+
+a {
+  background-color: lightgray;
+  font-weight: bold;
+  font-size: large;
+  color: black;
+  padding: 10px 60px;
+  margin: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+}
+
+.info {
+  font-size: large;
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.square {
+  font-variant: small-caps;
+  font-weight: bold;
+  padding-right: 30px;
+  margin-top: 30px;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 2px 2px 2px inset lightgray;
+  border-radius: 30px;
+  max-width: 400px;
+}
+
+.images {
+  position: relative;
+}
+
+.temple {
+  max-width: 400px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  position: relative;
+}
+
+.heart {
+  position: absolute;
+  max-width: 60px;
+  max-height: 60px;
+  right: 20px;
+  top: -230px;
+}
+
+.heart:hover {
+  transform: scale(1.25);
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
