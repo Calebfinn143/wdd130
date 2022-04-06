@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 53, 128);
+}
+
+footer {
+    background-color: rgb(0, 207, 82);
+    bottom: 0;
+    margin-left: 180px;
+    position: relative;
+    width: 88.1%;
+}
+
+footer img {
+    height: auto;
+    margin-top: 12px;
+    width: 32px;
+}
+
+footer p {
+    margin-left: 10px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    margin:20px;
+    margin-left: 60px;
+    text-align: center;
+}
+
+h2 {
+    margin: 10px;
+}
+
+h3 {
+    color: white;
+    font-size: 40px;
+    margin-left: 200px;
+    padding: 15px;
+}
+
+header {
+    align-items: center;
+    background-color: white;
+    display: flex;
+    margin-left: 180px;
+    padding: 20px;
+}
+
+header img {
+    border: 1px solid;
+    height: auto;
+    width: 400px;
+}
+
+/* Class Selectors */
+.boxes, .boxes_two {
+    display: flex;
+    margin-left: 180px;
+}
+
+.box_one, .box_four {
+    background-color: white;
+    border: 3px solid;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.box_one, .box_two, .box_three, .box_four {
+    margin: 50px;
+}
+
+.box_three img, .box_two img {
+    border: 3px solid;
+    border-radius: 15px;
+    width: 500px;
+}
+
+.box_four img, .box_four p {
+    width: 500px;
+}
+
+.box_four img {
+    padding: 15px;
+}
+
+.dropdown {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+}
+  
+.dropdown-content {
+    background-color: white;
+    display: none;
+    min-width: 80px;
+    padding: 12px;
+    position: absolute;
+}
+
+.contact, .fluency{
+    color: white;
+}
+
+.contact input, .contact label, .fluency input, .fluency p{
+    margin: 8px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+}
+
+.form {
+    border: 3px solid;
+    margin: 20px;
+    margin-left: 200px;
+    max-width: 280px;
+}
+
+.koko {
+    margin: auto;
+}
+
+.other {
+    color: white;
+    font-size: 20px;
+    margin-left: 200px;
+    padding: 15px;
+}
+
+.quiz {
+    background-color: rgb(0, 207, 82);
+    border-radius: 15px;
+    font-size: 30px;
+    margin: 15px;
+    max-width: fit-content;
+    padding: 12px;
+}
+
+.quiz:hover .dropdown-content {
+    border-radius: 15px;
+    display: block;
+}
+
+.reasons {
+    color: white;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}
+
+.sidenav {
+    background-color: black;
+    height: 100%;
+    padding-top: 80px;
+    position: fixed;
+    top: 0;
+    width: 180px;
+}
+  
+.sidenav a {
+    color: white;
+    display: block;
+    font-size: 25px;
+    padding: 6px 10px 10px 16px;
+    text-decoration: none;
+}
+  
+.sidenav a:hover {
+    color: rgb(4, 226, 183);
+}
+
+.submit {
+    margin: 15px;
+    padding: 5px;
+}
+
+.tongue {
+    display: flex;
+    margin-left: 300px;
+}
+
+.tongue img {
+    border: 3px solid;
+    border-radius: 20px;
+    margin: 30px;
+    width: 500px;
+}
