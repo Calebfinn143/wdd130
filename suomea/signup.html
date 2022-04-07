@@ -28,11 +28,15 @@
         </nav>
         
         <div class="flex">
-            <div class="form">
+            <picture class="map">
+                <img src="images/map.png" alt="map of Finland" height="300px" width="auto">
+            </picture>
+
+            <form class="form" action="" method="get">
                 <div class="fluency">
                     <p>How fluent are you?</p>
         
-                    <input type="radio" id="None" name="fluency" value="None">
+                    <input type="radio" id="None" name="fluency" value="None" required="required">
                     <label for="None">None</label><br>
                     <input type="radio" id="Beginner" name="fluency" value="Beginner">
                     <label for="Beginner">Beginner</label><br>
@@ -51,14 +55,16 @@
                     <input type="email" required="required" id="mail" name="user_email" placeholder="john_doe123@gmail.com">
                 </div>
     
-                <input class="submit" type="submit" value="Submit">
-            </div>
+                <div class="submit">
+                    <input class="submit" type="submit" value="Submit">
+                </div>
+            </form>
 
             <picture class="koko">
-                <img src="images/koko.jpg" alt="koko image">
+                <img src="images/koko.jpg" alt="koko image" height="300px" width="auto">
             </picture>
     
-            <p class="reasons">
+            <p class="reasons" style="line-height: 2;">
                 Reasons why you should sign up!! Lorem ipsum dolor sit amet consectetur adipisicing 
                 elit. Obcaecati minima quam quae excepturi reprehenderit, iste itaque, dignissimos, 
                 quo velit rem rerum amet consequuntur consectetur! Doloremque at quam odio quibusdam porro.
